@@ -1,0 +1,25 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+# *.tfvars
+
+# SSH Keys
+*.pem
+
+# TF Plans
+**/plans
+
+# Mac specific
+.idea
+.DS_Store
+
+.pre-commit-config.yaml
+.prettierignore
+
+# Local tooling binaries
+**/.bin/*
