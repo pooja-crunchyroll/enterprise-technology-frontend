@@ -23,3 +23,5 @@
 
 # Local tooling binaries
 **/.bin/*
+
+/webapp/node_modules

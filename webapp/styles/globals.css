@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-crunchy-dark {
+background-color: #192e38;
+}
+
+.bg-crunchy {
+  background-color: #213944;
+}
+.bg-crunchy-orange {
+  background-color: #f47521;
+}
+.text-crunchy-orange {
+ color: #f47521;
+}
+.text-crunchy-orange-light {
+  color: #ff8533;
+ }
+
+ .text-crunchy-dark {
+  color: #192e38;
+  }
+
+  .bg-grade {
+    background-color: #213944; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, #213944, #0f1a1f);
+}
+
+.bg-crunchy-light {
+  background-color: #1a2d36;
+}
+
+.text-crunchy-blue {
+  color: #2f5161;
+}
+
+.hu {
+  height:unset !important
+}
